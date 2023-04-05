@@ -18,7 +18,7 @@ void setup() {
 
   timer = timerBegin(0, 80, true); // Tạo một timer với số thứ tự 0, chia tỷ lệ tần số 80
   timerAttachInterrupt(timer, &onTimer, true); // Gắn hàm ngắt với timer
-  timerAlarmWrite(timer, 2000000, true); // Thiết lập thời gian delay 1 giây
+  timerAlarmWrite(timer, 2000000, true); // Thiết lập thời gian delay 2 giây
   timerAlarmEnable(timer); // Bật timer
 }
 
